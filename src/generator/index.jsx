@@ -39,7 +39,7 @@ function Generator() {
   const [isLoading, setisLoading] = useState(false);
   const [Budget, setBudget] = useState("");
   const [Along, setAlong] = useState("");
-  const [Days, setdDays] = useState(0);
+  const [Days, setdDays] = useState();
   const [location, setlocation] = useState("");
   const navigate = useNavigate();
   const { user, setUser } = useUser();
